@@ -1,4 +1,4 @@
-<h1 align="center">Expense Management System</h1>
+<h1 align="center">💰 Expense Management System</h1>
 
 <p align="center">
   <b>A secure, responsive, portfolio-ready personal finance platform built with ASP.NET Core 8 Web API, React 19, TypeScript, SQL Server, Entity Framework Core, JWT authentication, Tailwind CSS, SignalR, and Recharts.</b>
@@ -17,7 +17,7 @@
 
 ---
 
-## Project Screenshots
+## 📸 Project Screenshots
 
 | Responsive Sign In | Dashboard |
 |---|---|
@@ -33,7 +33,7 @@
 
 ---
 
-## Project Overview
+## 🚀 Project Overview
 
 **Expense Management System** is a full-stack personal finance application designed to demonstrate practical ASP.NET Core and React development in a secure, maintainable, and responsive solution.
 
@@ -45,7 +45,7 @@ All financial dashboard and analytics values are loaded from API endpoints backe
 
 ---
 
-## Project Purpose
+## 🎯 Project Purpose
 
 This project demonstrates junior-to-intermediate full-stack engineering with:
 
@@ -69,7 +69,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 
 ---
 
-## Key Highlights
+## ⭐ Key Highlights
 
 - Secure registration and confirmed-email authentication
 - ASP.NET Core Identity password hashing and lockout protection
@@ -96,9 +96,9 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 
 ---
 
-## Features
+## ✨ Features
 
-### Authentication and Account Management
+### 🔐 Authentication and Account Management
 
 | Feature | Description |
 |---|---|
@@ -112,7 +112,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 | Avatar management | Uploads or removes validated profile images up to 2 MB |
 | Session history | Shows recent browser, OS, device, IP, login, and activity information |
 
-### Expense and Budget Management
+### 💳 Expense and Budget Management
 
 | Feature | Description |
 |---|---|
@@ -123,7 +123,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 | Dashboard | Displays SQL-backed totals, trends, alerts, recent expenses, and top categories |
 | Empty states | Hides low-value empty sections by default and provides actionable onboarding states |
 
-### Savings and Automation
+### 🎯 Savings and Automation
 
 | Feature | Description |
 |---|---|
@@ -132,7 +132,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 | Recurring expenses | Configures repeating expenses and active/inactive status |
 | Background service | Processes eligible recurring expenses automatically |
 
-### Analytics and Reports
+### 📊 Analytics and Reports
 
 | Feature | Description |
 |---|---|
@@ -145,7 +145,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 | Excel export | Generates spreadsheet reports with ClosedXML |
 | Optional AI analysis | Uses Gemini when an API key is configured and applies a per-user rate limit |
 
-### User Experience
+### 📱 Responsive User Experience
 
 - Responsive mobile, tablet, laptop, and desktop layouts
 - Fixed desktop sidebar with independently scrollable navigation
@@ -158,9 +158,9 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 
 ---
 
-## Technology Stack
+## 🛠 Technology Stack
 
-### Backend
+### ⚙️ Backend
 
 | Area | Technology |
 |---|---|
@@ -180,7 +180,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 | Testing | xUnit 2.9.2, Moq 4.20.72, EF Core InMemory |
 | EF CLI | Repository-local `dotnet-ef` 8.0.21 |
 
-### Frontend
+### 🎨 Frontend
 
 | Area | Technology |
 |---|---|
@@ -201,7 +201,7 @@ This project demonstrates junior-to-intermediate full-stack engineering with:
 
 ---
 
-## Architecture Overview
+## 🏗 Architecture Overview
 
 ```text
 Browser
@@ -228,7 +228,7 @@ React 19 + TypeScript + TanStack Router
                               Microsoft SQL Server
 ```
 
-### Project Responsibilities
+### Layer Responsibilities
 
 | Project | Responsibility |
 |---|---|
@@ -259,7 +259,7 @@ API issues a short-lived JWT and rotating refresh token
 Security stamp and token claims are validated on protected requests
 ```
 
-### Data Flow
+### Financial Data Flow
 
 ```text
 React page requests dashboard, expense, category, budget, or savings data
@@ -279,7 +279,7 @@ DTO response is rendered as cards, tables, charts, or exports
 
 ---
 
-## Security and Reliability
+## 🔐 Security and Reliability
 
 | Area | Implementation |
 |---|---|
@@ -305,9 +305,9 @@ DTO response is rendered as cards, tables, charts, or exports
 
 ---
 
-## Database Model
+## 🗃 Database Model
 
-### Identity and Session Tables
+### Identity and Session Schema
 
 ASP.NET Core Identity and application authentication use:
 
@@ -320,7 +320,7 @@ ASP.NET Core Identity and application authentication use:
 - `RefreshTokens`
 - `UserSessions`
 
-### Financial Tables
+### Application Tables
 
 | Table | Purpose |
 |---|---|
@@ -361,7 +361,7 @@ The seed procedure creates general personal-finance categories, category budgets
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 expense-management-system-dotnet-react/
@@ -422,7 +422,7 @@ Generated `bin`, `obj`, `.vs`, `node_modules`, `dist`, `.tanstack`, logs, test r
 
 ---
 
-## Installation Guide — Windows PowerShell
+## ⚙️ Installation Guide — Windows PowerShell
 
 ### Requirements
 
@@ -682,7 +682,7 @@ http://localhost:3000
 
 ---
 
-## Registration and Local Email Confirmation
+## 👥 Registration and Local Email Confirmation
 
 The repository does not contain default usernames or passwords. Register your own local account through the web interface.
 
@@ -707,9 +707,9 @@ After the first successful confirmed login, SQL Server inserts starter data only
 
 ---
 
-## Normal Daily Startup
+## ▶️ Normal Daily Startup
 
-### Backend terminal
+### ⚙️ Backend terminal
 
 ```powershell
 $Dotnet = "$env:USERPROFILE\.dotnet\dotnet.exe"
@@ -723,7 +723,7 @@ Set-Location 'C:\path\to\expense-management-system-dotnet-react\ExpenseManagemen
 
 When the standard `dotnet` installation already includes .NET 8 x64, use `dotnet run --launch-profile https` instead.
 
-### Frontend terminal
+### 🎨 Frontend terminal
 
 ```powershell
 Set-Location 'C:\path\to\expense-management-system-dotnet-react\ExpenseManagement\expensemanagement.web'
@@ -733,7 +733,7 @@ npm run dev
 
 ---
 
-## Testing
+## 🧪 Testing
 
 Run all backend tests:
 
@@ -782,7 +782,7 @@ npm outdated
 
 ---
 
-## Example Workflow
+## 🧾 Example Demo Workflow
 
 1. Configure SQL Server, User Secrets, and the frontend environment file.
 2. Apply the included EF Core migrations.
@@ -802,19 +802,36 @@ npm outdated
 
 ---
 
-## Author
+## 🚀 Deployment Notes
+
+Before deploying:
+
+- Use a production SQL Server connection string from a secret manager.
+- Use a long, randomly generated production JWT signing key.
+- Configure explicit production CORS origins.
+- Configure HTTPS end to end.
+- Store SMTP and Gemini credentials outside source control.
+- Use durable storage for uploaded avatars or move them to object storage.
+- Review dependency advisories and licensing requirements.
+- Disable Swagger outside approved environments.
+- Back up the database before applying migrations.
+- Review logging retention and avoid logging personal financial data.
+
+---
+
+## 👨‍💻 Author
 
 **Muhammad Ali Nawaz**  
 ASP.NET Core and React Developer
 
 ---
 
-## License
+## 📄 License
 
 This project is open-source software licensed under the [MIT License](LICENSE).
 
 ---
 
 <p align="center">
-  <b>If this project helps you, consider starring the repository.</b>
+  <b>⭐ If this project helps you, consider starring the repository!</b>
 </p>
