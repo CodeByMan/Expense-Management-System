@@ -1,0 +1,318 @@
+{
+  "title": "إدارة المصاريف",
+  "mainTitle": "دفتر الحسابات",
+  "nav": {
+    "dashboard": "لوحة المعلومات",
+    "categories": "التصنيفات",
+    "expenses": "المصروفات",
+    "reports": "التقارير",
+    "analytics": "التحليلات",
+    "savingGoal": "هدف التوفير",
+    "recurring": "المصروفات المتكررة",
+    "settings": "الإعدادات"
+  },
+  "common": {
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ...",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "yes": "نعم",
+    "no": "لا",
+    "add": "إضافة",
+    "set": "تعيين",
+    "loading": "جارٍ التحميل...",
+    "noData": "لا توجد بيانات",
+    "total": "الإجمالي",
+    "actions": "الإجراءات",
+    "search": "بحث",
+    "export": "تصدير",
+    "analyze": "تحليل",
+    "analyzing": "جارٍ التحليل...",
+    "over": "تجاوز"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "الرجاء إدخال بياناتك للوصول إلى دفتر حساباتك",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "بريد إلكتروني غير صالح",
+      "password": "كلمة المرور",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "loginButton": "تسجيل الدخول",
+      "loggingIn": "جارٍ تسجيل الدخول...",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "subtitle": "ابدأ في إدارة مصاريفك اليوم",
+      "fullName": "الاسم الكامل",
+      "firstName": "الاسم الأول",
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "lastName": "اسم العائلة",
+      "lastNameRequired": "اسم العائلة مطلوب",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "بريد إلكتروني غير صالح",
+      "password": "كلمة المرور",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordMinLength": "8 أحرف على الأقل",
+      "registerButton": "إنشاء حساب",
+      "creating": "جارٍ الإنشاء...",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "loginLink": "تسجيل الدخول"
+    }
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "صباح الخير",
+      "afternoon": "مساء الخير",
+      "evening": "مساء الخير",
+      "addExpense": "إضافة مصروف"
+    },
+    "stats": {
+      "totalExpense": "إجمالي المصاريف",
+      "overallSpending": "الإنفاق الإجمالي",
+      "thisMonth": "هذا الشهر",
+      "vsLastMonth": "مقارنة بالشهر الماضي",
+      "topCategory": "أعلى تصنيف",
+      "dailyAverage": "المعدل اليومي",
+      "thisMonthSoFar": "هذا الشهر حتى الآن",
+      "day": "يوم"
+    },
+    "charts": {
+      "spendingTrends": "اتجاهات الإنفاق",
+      "monthly": "شهري",
+      "yearly": "سنوي"
+    },
+    "activity": {
+      "title": "آخر النشاطات",
+      "today": "اليوم",
+      "yesterday": "أمس",
+      "noExpenses": "لا توجد مصاريف بعد",
+      "startTracking": "ابدأ التتبع بإضافة أول مصروف لك",
+      "addFirst": "+ أضف أول مصروف لك"
+    },
+    "monthComparison": {
+      "title": "مقارنة الشهور",
+      "noChange": "لا تغيير",
+      "more": "أكثر",
+      "less": "أقل",
+      "sameSpending": "نفس الإنفاق مقارنة بالشهر الماضي",
+      "spentMore": "أنفقت أكثر هذا الشهر",
+      "saved": "وفّرت هذا الشهر",
+      "byCategory": "هذا الشهر حسب التصنيف"
+    },
+    "smartAlerts": {
+      "title": "التنبيهات الذكية",
+      "subtitle": "إشارات الإنفاق المكتشفة تلقائياً",
+      "allClear": "كل شيء على ما يرام",
+      "noIssues": "لم يتم اكتشاف أي مشكلات هذا الشهر"
+    },
+    "topCategories": {
+      "title": "أعلى تصنيفات الإنفاق",
+      "subtitle": "تفصيل هذا الشهر حسب التصنيف",
+      "noData": "لا توجد بيانات إنفاق بعد",
+      "total": "الإجمالي",
+      "txn": "معاملة"
+    }
+  },
+  "expense": {
+    "title": "المصاريف",
+    "subTitle": "إدارة مصاريفك",
+    "addExpense": "اضافة مصروف",
+    "searchPlaceholder": "بحث في المصاريف...",
+    "allCategories": "الكل",
+    "noExpensesFound": "لم يتم العثور على مصاريف",
+    "noResults": "لا توجد نتائج لـ \"{{search}}\"",
+    "nothingRecorded": "لا شيء مسجّل في {{month}} {{year}}",
+    "deleteConfirm": "حذف هذا المصروف؟",
+    "deletedSuccess": "تم حذف المصروف.",
+    "deleteFailed": "فشل حذف المصروف.",
+    "budgetOverview": "نظرة عامة على ميزانية الشهر",
+    "spent": "المُنفق",
+    "budget": "الميزانية",
+    "over": "تجاوز",
+    "left": "متبقي",
+    "table": {
+      "date": "التاريخ",
+      "expense": "المصروف",
+      "category": "التصنيف",
+      "amount": "المبلغ",
+      "actions": "الإجراءات"
+    },
+    "count": "{{count}} مصروف في {{month}} {{year}}",
+    "count_plural": "{{count}} مصاريف في {{month}} {{year}}"
+  },
+  "category": {
+    "title": "التصنيفات",
+    "subTitle": "قم بإدارة فئاتك وميزانياتك الشهرية",
+    "addCategory": "اضافة تصنيف",
+    "noCategories": "لا توجد تصنيفات بعد",
+    "noCategoriesHint": "أضف أول تصنيف أو انسخ من الشهر الماضي",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا التصنيف؟",
+    "budgetUpdated": "تم تحديث الميزانية!",
+    "budgetFailed": "فشل تحديث الميزانية.",
+    "totalBudget": "إجمالي الميزانية",
+    "totalSpent": "إجمالي المُنفق",
+    "savedToGoals": "محوّل للأهداف",
+    "available": "المتاح",
+    "spentLimit": "(المُنفق / الحد)",
+    "table": {
+      "category": "الاسم",
+      "description": "الوصف",
+      "monthly Budget": "الميزانية الشهرية",
+      "actions": "الإجراءات"
+    }
+  },
+  "recurring": {
+    "title": "المصروفات المتكررة",
+    "subTitle": "مصاريف تلقائية وفق جدول زمني",
+    "addRecurring": "إضافة متكرر",
+    "activeSchedules": "الجداول النشطة",
+    "estMonthlyCost": "التكلفة الشهرية التقديرية",
+    "paused": "موقوف",
+    "noRecurring": "لا توجد مصروفات متكررة بعد",
+    "noRecurringHint": "أضف الاشتراكات أو الإيجار أو أي دفعة منتظمة",
+    "addFirst": "+ أضف أول مصروف متكرر",
+    "deleteConfirm": "حذف هذا المصروف المتكرر؟",
+    "createdSuccess": "تم إنشاء المصروف المتكرر!",
+    "createFailed": "فشل الإنشاء.",
+    "updatedSuccess": "تم التحديث!",
+    "updateFailed": "فشل التحديث.",
+    "statusUpdated": "تم تحديث الحالة.",
+    "statusFailed": "فشل تغيير الحالة.",
+    "form": {
+      "newTitle": "مصروف متكرر جديد",
+      "editTitle": "تعديل مصروف متكرر",
+      "titlePlaceholder": "العنوان *",
+      "amountPlaceholder": "المبلغ *",
+      "categoryPlaceholder": "التصنيف *",
+      "repeats": "التكرار",
+      "dayOfMonth": "يوم الشهر",
+      "startDate": "تاريخ البداية *",
+      "endDate": "تاريخ الانتهاء (اختياري)",
+      "requiredFields": "يرجى ملء جميع الحقول المطلوبة.",
+      "daily": "يومي",
+      "weekly": "أسبوعي",
+      "monthly": "شهري",
+      "yearly": "سنوي"
+    },
+    "next": "التالي",
+    "pause": "إيقاف مؤقت",
+    "resume": "استئناف"
+  },
+  "savings": {
+    "title": "هدف التوفير",
+    "subTitle": "تابع تقدمك نحو أهدافك المالية",
+    "addGoal": "إضافة هدف",
+    "noGoals": "لا توجد أهداف توفير بعد",
+    "noGoalsHint": "أنشئ أول هدف لك لبدء تتبع مدخراتك",
+    "createGoal": "+ إنشاء هدف",
+    "deleteConfirm": "حذف هدف التوفير هذا؟",
+    "totalTarget": "إجمالي الهدف",
+    "totalSaved": "إجمالي المُوفَّر",
+    "overall": "إجمالي",
+    "completed": "مكتمل",
+    "complete": "✓ مكتمل",
+    "almostThere": "أوشكت على الوصول!",
+    "remaining": "متبقي",
+    "addAmount": "+ إضافة",
+    "amountToAdd": "المبلغ المراد إضافته",
+    "surplusAvailable": "تمويل من الفائض · PKR {{amount}} متاح",
+    "surplusLocked": "الفائض مقفل حتى اليوم {{day}}",
+    "surplusBannerUnlocked": "لديك PKR {{amount}} متبقية في ميزانيتك هذا الشهر",
+    "surplusBannerUnlockedHint": "استخدم زر \"تمويل من الفائض\" على أي هدف أدناه للتخصيص",
+    "surplusBannerLocked": "لديك PKR {{amount}} فائض حتى الآن هذا الشهر",
+    "surplusBannerLockedHint": "🔒 يُفتح تخصيص الفائض في اليوم {{day}} من هذا الشهر — عُد لاحقاً لتخصيص ميزانيتك المتبقية لأهداف التوفير"
+  },
+  "report": {
+    "title": "التقارير المالية",
+    "subtitle": "رؤى وتحليلات لـ",
+    "totalBudget": "إجمالي الميزانية",
+    "totalSpent": "إجمالي المُنفق",
+    "overBudget": "تجاوز الميزانية",
+    "remaining": "المتبقي",
+    "percentUsed": "% مستخدم",
+    "spendingDistribution": "توزيع الإنفاق",
+    "budgetVsActual": "الميزانية مقابل الفعلي",
+    "noExpenses": "لا توجد مصاريف مسجلة هذا الشهر",
+    "noData": "لا توجد بيانات لهذا الشهر",
+    "aiInsights": "رؤى",
+    "aiWarnings": "تحذيرات",
+    "aiTips": "نصائح",
+    "analyzing": "جارٍ تحليل مصاريف {{month}}..."
+  },
+  "header": {
+    "notifications": "الإشعارات",
+    "clearNotifications": "مسح",
+    "noNotifications": "لا توجد إشعارات",
+    "now": "الآن",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "export": {
+    "button": "تصدير",
+    "exporting": "جارٍ تصدير {{type}}...",
+    "downloadPdf": "تحميل PDF",
+    "downloadExcel": "تحميل Excel",
+    "downloadedSuccess": "تم تحميل {{type}}!",
+    "downloadFailed": "فشل تصدير {{type}}."
+  },
+  "months": {
+    "january": "يناير",
+    "february": "فبراير",
+    "march": "مارس",
+    "april": "أبريل",
+    "may": "مايو",
+    "june": "يونيو",
+    "july": "يوليو",
+    "august": "أغسطس",
+    "september": "سبتمبر",
+    "october": "أكتوبر",
+    "november": "نوفمبر",
+    "december": "ديسمبر"
+  },
+  "analytics": {
+    "title": "التحليلات",
+    "subtitle": "التحليلات الشهرية لـ"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "إدارة المظهر واللغة وطريقة عرض لوحة المعلومات.",
+    "appearance": {
+      "title": "المظهر",
+      "subtitle": "اختر شكل التطبيق على هذا الجهاز.",
+      "light": "الوضع الفاتح",
+      "lightHint": "ألوان ساطعة للاستخدام النهاري.",
+      "dark": "الوضع الداكن",
+      "darkHint": "وهج أقل للاستخدام في الإضاءة المنخفضة."
+    },
+    "language": {
+      "title": "اللغة",
+      "subtitle": "تغيير لغة واجهة التطبيق.",
+      "englishHint": "استخدام الواجهة الإنجليزية.",
+      "arabicHint": "استخدام الواجهة العربية من اليمين إلى اليسار."
+    },
+    "dashboard": {
+      "title": "عرض لوحة المعلومات",
+      "subtitle": "التحكم في إظهار الأقسام الفارغة والاختيارية.",
+      "showEmpty": "إظهار أقسام لوحة المعلومات الفارغة",
+      "showEmptyHint": "عند التعطيل، يتم إخفاء البطاقات التي لا تحتوي على بيانات مالية مفيدة حتى تتوفر البيانات."
+    },
+    "data": {
+      "title": "مصدر البيانات",
+      "description": "تتم قراءة إجماليات لوحة المعلومات والرسوم والميزانيات والبيانات التجريبية من قاعدة بيانات SQL Server. العملة هي الروبية الباكستانية (PKR)."
+    },
+    "profile": {
+      "title": "الملف الشخصي",
+      "description": "قم بتحديث اسمك وصورة ملفك الشخصي من صفحة الملف الشخصي.",
+      "open": "فتح إعدادات الملف الشخصي"
+    }
+  }
+}

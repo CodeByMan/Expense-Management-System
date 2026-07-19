@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter</value></resheader>
+
+  <!-- ── Auth / Accounts ─────────────────────────────────────────────────── -->
+  <data name="user_not_found"><value>المستخدم غير موجود.</value></data>
+  <data name="user_already_exists"><value>المستخدم موجود بالفعل.</value></data>
+  <data name="user_registered"><value>تم تسجيل المستخدم بنجاح.</value></data>
+  <data name="user_logged_in"><value>تم تسجيل الدخول بنجاح.</value></data>
+  <data name="user_logged_out"><value>تم تسجيل الخروج بنجاح.</value></data>
+  <data name="invalid_input"><value>بيانات الإدخال غير صالحة.</value></data>
+  <data name="no_refresh_token"><value>لم يتم العثور على رمز التحديث.</value></data>
+  <data name="logout_failed"><value>فشل تسجيل الخروج أو تم إلغاء الرمز بالفعل.</value></data>
+  <data name="invalid_session"><value>جلسة غير صالحة.</value></data>
+  <data name="token_refreshed"><value>تم تحديث الرمز بنجاح.</value></data>
+  <data name="token_revoked"><value>تم إلغاء الرمز بالفعل.</value></data>
+  <data name="token_expired"><value>انتهت صلاحية الرمز.</value></data>
+
+  <!-- ── Email Confirmation ──────────────────────────────────────────────── -->
+  <data name="email_confirmed"><value>تم تأكيد البريد الإلكتروني بنجاح.</value></data>
+  <data name="email_already_confirmed"><value>البريد الإلكتروني مؤكد بالفعل.</value></data>
+  <data name="email_confirmation_sent"><value>تم إرسال بريد التأكيد بنجاح.</value></data>
+  <data name="invalid_token"><value>الرمز غير صالح.</value></data>
+  <data name="invalid_confirmation_link"><value>رابط التأكيد غير صالح أو منتهي الصلاحية.</value></data>
+
+  <!-- ── Expense ──────────────────────────────────────────────────────────── -->
+  <data name="expenses_retrieved"><value>تم استرداد المصاريف بنجاح.</value></data>
+  <data name="expense_retrieved"><value>تم استرداد المصروف بنجاح.</value></data>
+  <data name="expense_created"><value>تم إنشاء المصروف بنجاح.</value></data>
+  <data name="expense_updated"><value>تم تحديث المصروف بنجاح.</value></data>
+  <data name="expense_deleted"><value>تم حذف المصروف بنجاح.</value></data>
+  <data name="expense_not_found"><value>المصروف غير موجود.</value></data>
+  <data name="no_data_found"><value>لا توجد بيانات.</value></data>
+
+  <!-- ── Category ────────────────────────────────────────────────────────── -->
+  <data name="categories_retrieved"><value>تم استرداد التصنيفات بنجاح.</value></data>
+  <data name="category_retrieved"><value>تم استرداد التصنيف بنجاح.</value></data>
+  <data name="category_created"><value>تم إنشاء التصنيف بنجاح.</value></data>
+  <data name="category_updated"><value>تم تحديث التصنيف بنجاح.</value></data>
+  <data name="category_deleted"><value>تم حذف التصنيف بنجاح.</value></data>
+  <data name="category_not_found"><value>التصنيف غير موجود.</value></data>
+  <data name="category_create_failed"><value>فشل إنشاء التصنيف.</value></data>
+  <data name="category_update_failed"><value>فشل تحديث التصنيف.</value></data>
+  <data name="category_delete_failed"><value>فشل حذف التصنيف.</value></data>
+  <data name="no_categories_found"><value>لا توجد تصنيفات.</value></data>
+
+  <!-- ── Category Budgets ────────────────────────────────────────────────── -->
+  <data name="budgets_not_found"><value>لا توجد ميزانيات للشهر المحدد.</value></data>
+  <!-- {0} = "أبريل 2026" -->
+  <data name="budgets_carried_forward"><value>تم نسخ الميزانيات من {0} إلى الشهر القادم.</value></data>
+
+  <!-- ── Surplus Allocation ──────────────────────────────────────────────── -->
+  <data name="savings_goal_not_found"><value>هدف التوفير غير موجود.</value></data>
+  <data name="amount_must_be_positive"><value>يجب أن يكون المبلغ أكبر من صفر.</value></data>
+  <!-- {0} = المبلغ المتاح -->
+  <data name="amount_exceeds_surplus"><value>المبلغ يتجاوز الفائض المتاح البالغ {0}.</value></data>
+  <!-- {0} = المبلغ, {1} = اسم الهدف -->
+  <data name="surplus_allocated"><value>تم تخصيص PKR {0} لـ "{1}" بنجاح.</value></data>
+
+  <!-- ── Dashboard Alerts ────────────────────────────────────────────────── -->
+  <!-- {0} = النسبة المئوية -->
+  <data name="alert_spending_up"><value>ارتفع إنفاقك بنسبة {0}% مقارنةً بالشهر الماضي.</value></data>
+  <!-- {0} = النسبة المئوية -->
+  <data name="alert_spending_down"><value>أحسنت! لقد أنفقت {0}% أقل من الشهر الماضي.</value></data>
+  <!-- {0} = اسم التصنيف, {1} = النسبة المئوية -->
+  <data name="alert_dominant_category"><value>يمثّل تصنيف "{0}" نسبة {1}% من إنفاقك هذا الشهر.</value></data>
+  <data name="alert_no_expenses"><value>لم يتم تسجيل أي مصاريف هذا الشهر حتى الآن.</value></data>
+
+  <!-- ── SignalR Notifications ───────────────────────────────────────────── -->
+  <!-- {0} = اسم الشهر, {1} = اسم التصنيف -->
+  <data name="notif_budget_exceeded"><value>⚠️ تحذير: لقد تجاوزت ميزانية {0} لتصنيف {1}!</value></data>
+  <!-- {0} = النسبة, {1} = اسم الشهر, {2} = اسم التصنيف -->
+  <data name="notif_budget_warning"><value>🔔 لقد استخدمت {0}% من ميزانية {1} لتصنيف {2}.</value></data>
+  <!-- {0} = العنوان, {1} = المبلغ -->
+  <data name="notif_recurring_added"><value>🔄 تمت إضافة مصروف متكرر: {0} — PKR {1}</value></data>
+  <!-- {0} = اسم الهدف -->
+  <data name="notif_goal_completed"><value>🎉 تهانينا! لقد حققت هدف التوفير: {0}!</value></data>
+  <!-- {0} = النسبة, {1} = اسم الهدف -->
+  <data name="notif_goal_progress"><value>🔔 لقد أنجزت {0}% من هدفك "{1}" — أنت على وشك الوصول!</value></data>
+
+  <!-- ── Insights ─────────────────────────────────────────────────────────── -->
+  <data name="api_key_missing"><value>مفتاح API مفقود.</value></data>
+
+</root>

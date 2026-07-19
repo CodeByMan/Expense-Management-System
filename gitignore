@@ -1,0 +1,167 @@
+# =============================================================
+# Expense Management System - repository ignore rules
+# ASP.NET Core 8 + React/Vite + SQL Server
+# =============================================================
+
+# -----------------------------
+# .NET / Visual Studio
+# -----------------------------
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.rsuser
+*.dbmdl
+*.jfm
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results and coverage
+TestResults/
+**/TestResults/
+coverage/
+**/coverage/
+coverage-*.xml
+coverage-*.json
+*.coverage
+*.coveragexml
+
+# -----------------------------
+# Node / React / Vite
+# -----------------------------
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.vite/
+**/.tanstack/
+**/.cache/
+**/.parcel-cache/
+**/.turbo/
+**/.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Keep the real lockfile, ignore temporary repair backups
+**/package-lock.before-registry-fix.json
+**/package-lock.*.backup.json
+
+# -----------------------------
+# Secrets and local configuration
+# -----------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets.json
+**/secrets.json
+appsettings.Local.json
+appsettings.*.Local.json
+appsettings.*.local.json
+*.local.json
+
+# Local HTTPS certificates and signing material
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+
+# -----------------------------
+# SQL Server and local databases
+# -----------------------------
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.sqldump
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# -----------------------------
+# Runtime-generated application data
+# -----------------------------
+logs/
+**/logs/
+*.log
+*.log.*
+*.tmp
+*.temp
+
+# User-uploaded profile images
+**/wwwroot/uploads/avatars/*
+!**/wwwroot/uploads/avatars/.gitkeep
+
+# Generated exports and downloads
+exports/
+**/exports/
+downloads/
+**/downloads/
+
+# -----------------------------
+# IDE and editor files
+# -----------------------------
+.idea/
+**/.idea/
+.vscode/*
+**/.vscode/*
+!.vscode/settings.json
+!**/.vscode/settings.json
+!.vscode/extensions.json
+!**/.vscode/extensions.json
+!.vscode/launch.json
+!**/.vscode/launch.json
+!.vscode/tasks.json
+!**/.vscode/tasks.json
+*.code-workspace
+
+# -----------------------------
+# Operating-system files
+# -----------------------------
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------------
+# Local backups, patches, and archives
+# -----------------------------
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.patch
+*.diff
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+.patch-backups/
+**/.patch-backups/
+*-before-dashboard-fixes/
+*-backup-*/
+
+# PowerShell transcript files
+PowerShell_transcript.*.txt

@@ -1,0 +1,4 @@
+@ExpenseManagement.API_HostAddress = http://localhost:5273
+
+GET {{ExpenseManagement.API_HostAddress}}/swagger/index.html
+Accept: text/html

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Default male profile avatar</title>
+  <desc id="desc">A friendly vector illustration of a man on a green background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d1fae5"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="80" fill="url(#bg)"/>
+  <circle cx="80" cy="66" r="34" fill="#d69c72"/>
+  <path d="M47 61c2-25 16-39 36-39 23 0 36 17 34 43-8-13-20-19-35-20-12 0-24 6-35 16Z" fill="#1f2937"/>
+  <path d="M62 76c5 5 11 8 18 8s14-3 19-8c-2 14-9 23-19 23S64 90 62 76Z" fill="#7c3f2c" opacity=".55"/>
+  <circle cx="67" cy="66" r="3" fill="#111827"/>
+  <circle cx="94" cy="66" r="3" fill="#111827"/>
+  <path d="M30 151c4-29 23-47 50-47s46 18 50 47" fill="#047857"/>
+  <path d="M65 105l15 20 15-20" fill="#f8fafc"/>
+</svg>

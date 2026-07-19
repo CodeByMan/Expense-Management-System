@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter</value></resheader>
+
+  <!-- ── Auth / Accounts ─────────────────────────────────────────────────── -->
+  <data name="user_not_found"><value>User not found.</value></data>
+  <data name="user_already_exists"><value>User already exists.</value></data>
+  <data name="user_registered"><value>User registered successfully.</value></data>
+  <data name="user_logged_in"><value>Logged in successfully.</value></data>
+  <data name="user_logged_out"><value>Logged out successfully.</value></data>
+  <data name="invalid_input"><value>Invalid input data.</value></data>
+  <data name="no_refresh_token"><value>No refresh token found.</value></data>
+  <data name="logout_failed"><value>Logout failed or token already revoked.</value></data>
+  <data name="invalid_session"><value>Invalid session.</value></data>
+  <data name="token_refreshed"><value>Token refreshed successfully.</value></data>
+  <data name="token_revoked"><value>Token already revoked.</value></data>
+  <data name="token_expired"><value>Token expired.</value></data>
+
+  <!-- ── Email Confirmation ──────────────────────────────────────────────── -->
+  <data name="email_confirmed"><value>Email confirmed successfully.</value></data>
+  <data name="email_already_confirmed"><value>Email is already confirmed.</value></data>
+  <data name="email_confirmation_sent"><value>Confirmation email sent successfully.</value></data>
+  <data name="invalid_token"><value>Invalid token.</value></data>
+  <data name="invalid_confirmation_link"><value>Invalid or expired confirmation link.</value></data>
+
+  <!-- ── Expense ──────────────────────────────────────────────────────────── -->
+  <data name="expenses_retrieved"><value>Expenses retrieved successfully.</value></data>
+  <data name="expense_retrieved"><value>Expense retrieved successfully.</value></data>
+  <data name="expense_created"><value>Expense created successfully.</value></data>
+  <data name="expense_updated"><value>Expense updated successfully.</value></data>
+  <data name="expense_deleted"><value>Expense deleted successfully.</value></data>
+  <data name="expense_not_found"><value>Expense not found.</value></data>
+  <data name="no_data_found"><value>No data found.</value></data>
+
+  <!-- ── Category ────────────────────────────────────────────────────────── -->
+  <data name="categories_retrieved"><value>Categories retrieved successfully.</value></data>
+  <data name="category_retrieved"><value>Category retrieved successfully.</value></data>
+  <data name="category_created"><value>Category created successfully.</value></data>
+  <data name="category_updated"><value>Category updated successfully.</value></data>
+  <data name="category_deleted"><value>Category deleted successfully.</value></data>
+  <data name="category_not_found"><value>Category not found.</value></data>
+  <data name="category_create_failed"><value>Failed to create category.</value></data>
+  <data name="category_update_failed"><value>Failed to update category.</value></data>
+  <data name="category_delete_failed"><value>Failed to delete category.</value></data>
+  <data name="no_categories_found"><value>No categories found.</value></data>
+
+  <!-- ── Category Budgets ────────────────────────────────────────────────── -->
+  <data name="budgets_not_found"><value>No budgets found for the specified month.</value></data>
+  <!-- {0} = "April 2026", {1} = next month name -->
+  <data name="budgets_carried_forward"><value>Budgets copied from {0} to next month.</value></data>
+
+  <!-- ── Surplus Allocation ──────────────────────────────────────────────── -->
+  <data name="savings_goal_not_found"><value>Savings goal not found.</value></data>
+  <data name="amount_must_be_positive"><value>Amount must be greater than zero.</value></data>
+  <!-- {0} = formatted available surplus amount -->
+  <data name="amount_exceeds_surplus"><value>Amount exceeds available surplus of {0}.</value></data>
+  <!-- {0} = amount, {1} = goal name -->
+  <data name="surplus_allocated"><value>PKR {0} allocated to "{1}" successfully.</value></data>
+
+  <!-- ── Dashboard Alerts ────────────────────────────────────────────────── -->
+  <!-- {0} = percentage -->
+  <data name="alert_spending_up"><value>Your spending is up {0}% compared to last month.</value></data>
+  <!-- {0} = percentage -->
+  <data name="alert_spending_down"><value>Great job! You spent {0}% less than last month.</value></data>
+  <!-- {0} = category name, {1} = percentage -->
+  <data name="alert_dominant_category"><value>"{0}" accounts for {1}% of your spending this month.</value></data>
+  <data name="alert_no_expenses"><value>No expenses recorded this month yet.</value></data>
+
+  <!-- ── SignalR Notifications ───────────────────────────────────────────── -->
+  <!-- {0} = month name, {1} = category name -->
+  <data name="notif_budget_exceeded"><value>⚠️ Warning: You have exceeded the {0} budget for {1}!</value></data>
+  <!-- {0} = percentage, {1} = month name, {2} = category name -->
+  <data name="notif_budget_warning"><value>🔔 You have used {0}% of your {1} budget for {2}.</value></data>
+  <!-- {0} = title, {1} = amount -->
+  <data name="notif_recurring_added"><value>🔄 Recurring expense added: {0} — PKR {1}</value></data>
+  <!-- {0} = goal name -->
+  <data name="notif_goal_completed"><value>🎉 Congratulations! You have reached your savings goal: {0}!</value></data>
+  <!-- {0} = percentage, {1} = goal name -->
+  <data name="notif_goal_progress"><value>🔔 You're {0}% of the way to your "{1}" goal — almost there!</value></data>
+
+  <!-- ── Insights ─────────────────────────────────────────────────────────── -->
+  <data name="api_key_missing"><value>API key is missing.</value></data>
+
+</root>
