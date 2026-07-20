@@ -41,13 +41,11 @@ Users can register, confirm their email address, sign in securely, organize expe
 
 The backend is an **ASP.NET Core 8 REST API** backed by SQL Server and Entity Framework Core. The frontend is a standalone **React 19 + TypeScript + Vite** application using Tailwind CSS, TanStack Query, TanStack Router, Recharts, Axios, and SignalR.
 
-All financial dashboard and analytics values are loaded from API endpoints backed by SQL Server. Starter records are inserted through the idempotent SQL Server procedure `dbo.SeedExpenseManagementStarterData`; the React interface does not contain hard-coded demo financial values.
 
 ---
 
 ## 🎯 Project Purpose
 
-This project demonstrates junior-to-intermediate full-stack engineering with:
 
 - ASP.NET Core 8 Web API development
 - React 19 and TypeScript frontend architecture
@@ -301,7 +299,6 @@ DTO response is rendered as cards, tables, charts, or exports
 | Secrets | Connection strings, JWT signing keys, SMTP credentials, and AI keys remain outside Git |
 | Testing | 21 automated regression tests |
 
-> Never commit `.env.local`, User Secrets output, passwords, JWT keys, SMTP credentials, Gemini keys, database backups, authentication cookies, logs, or uploaded profile images.
 
 ---
 
@@ -417,8 +414,6 @@ expense-management-system-dotnet-react/
 ├── LICENSE
 └── README.md
 ```
-
-Generated `bin`, `obj`, `.vs`, `node_modules`, `dist`, `.tanstack`, logs, test results, local environment files, uploaded avatars, and backup files must remain untracked.
 
 ---
 
@@ -701,10 +696,6 @@ sqlcmd `
     -Q "SET ANSI_NULLS ON; SET QUOTED_IDENTIFIER ON; SET ANSI_PADDING ON; SET ANSI_WARNINGS ON; SET CONCAT_NULL_YIELDS_NULL ON; SET ARITHABORT ON; SET NUMERIC_ROUNDABORT OFF; UPDATE dbo.AspNetUsers SET EmailConfirmed = 1 WHERE Email = N'$Email'; SELECT Email, EmailConfirmed FROM dbo.AspNetUsers WHERE Email = N'$Email';"
 ```
 
-This database update is a development-only convenience and is not a production confirmation workflow.
-
-After the first successful confirmed login, SQL Server inserts starter data only when the account has no active categories.
-
 ---
 
 ## ▶️ Normal Daily Startup
@@ -777,8 +768,6 @@ Set-Location $Frontend
 npm audit
 npm outdated
 ```
-
-> The current backend restore reports an advisory for AutoMapper 15.0.1. Review and compatibility-test a safe upgrade before production deployment.
 
 ---
 
